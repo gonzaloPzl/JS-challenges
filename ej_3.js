@@ -1,7 +1,7 @@
 // Write a function that takes a two strings as arguments
 // Return the number of times the first string occurs in the second string
 
-const stringInString = function (letter, sentence) {
+const stringInString = (letter, sentence) => {
   let count = 0; // contador
   const sentenceToArray = Array.from(sentence) // transforma el la oracion en un array con una palabra por indice
   for (let i in sentenceToArray) { // se hace un for iterando cada letra

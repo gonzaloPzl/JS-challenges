@@ -3,7 +3,7 @@
 // Otherwise, multiply both numbers
 // Return the resulting value
 
-const maths = function (num_a, num_b) {
+const maths = (num_a, num_b) => {
   return num_a < num_b ? num_a / num_b : num_a * num_b
 }
 
