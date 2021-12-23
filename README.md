@@ -6,7 +6,7 @@
 - [x] Return the average of an array of numbers
 - [x] Return the longest string from an array of strings
 - [x] Merge an arbitrary number of arrays
-- [ ] Remove a specific array element
+- [x] Remove a specific array element
 - [ ] Merge two arrays with duplicate values
 - [ ] Sum up all array elements with values greater than
 - [ ] Create a range of numbers
