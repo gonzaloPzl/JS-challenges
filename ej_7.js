@@ -1,13 +1,13 @@
-// Write a function that takes a number as argument
-// The function should split the number into its individual digits and return them in an array
+// Write a function that takes an array and a value as argument
+// The function should clean the array from all occurrences of the given value and return the the cleaned version
 
-const splitNumber = number => {
-  stringNumber = number.toString() // transformo el numero a string
-  arrayDigits = Array.from(stringNumber) // transformo el string en un array separado
-  for (i in arrayDigits) { // itero por cada elemento del array
-    arrayDigits[i] = Number(arrayDigits[i]) // transformo cada string de digito en digito numerico
+const deleteElement = (array, value) => {
+  for (let i in array) {
+    if (array[i] === value) {
+      array.splice(i, 1)
+    }
   }
-  return arrayDigits // retorno el arreglo
+  return array
 }
 
-console.log(splitNumber(1532))
+console.log(deleteElement([15,10,25,15,5], 15))

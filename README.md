@@ -33,3 +33,6 @@ Write a function that takes an array of strings as argument. It should return th
 
 #### Merge an arbitrary number of arrays
 Write a function that takes arguments an arbitrary number of arrays. It should return an array containing the values of all arrays
+
+#### Remove a specific array element
+Write a function that takes an array and a value as argument. The function should clean the array from all occurrences of the given value and return the the cleaned version
