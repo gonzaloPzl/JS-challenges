@@ -2,7 +2,7 @@
 
 - [x] Check if all array elements are equal
 - [x] Sort an array of numbers in descending order
-- [ ] Sort an array of strings alphabetically
+- [x] Sort an array of strings alphabetically
 - [ ] Return the average of an array of numbers
 - [ ] Return the longest string from an array of strings
 - [ ] Merge an arbitrary number of arrays
@@ -21,3 +21,6 @@ Write a function that takes an array as argument. It should return true if all e
 
 #### Sort an array of numbers in descending order
 Write a function that takes an array of numbers as argument. It should return an array with the numbers sorted in descending order
+
+#### Sort an array of strings alphabetically
+Write a function that takes an array of strings as argument. It should return the array with its values sorted alphabetically
