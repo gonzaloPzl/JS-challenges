@@ -1,7 +1,11 @@
-// Write a function that takes a number as argument
-// If the number is even, return true
-// Otherwise, return false
+// Write a function that takes an array of numbers as argument
+// It should return an array with the numbers sorted in descending order
 
-const isEven = number => number % 2 == 0 ? true : false
+const numbersSorted = arrayNumbers => {
+  arrayNumbers.sort(function(a, b) {
+    return b - a;
+  })
+  return arrayNumbers
+}
 
-console.log(isEven(3))
+console.log(numbersSorted([15,10,5,30,55]))

@@ -1,7 +1,7 @@
 # Javascript Arrays
 
 - [x] Check if all array elements are equal
-- [ ] Sort an array of numbers in descending order
+- [x] Sort an array of numbers in descending order
 - [ ] Sort an array of strings alphabetically
 - [ ] Return the average of an array of numbers
 - [ ] Return the longest string from an array of strings
@@ -18,3 +18,6 @@
 
 #### Check if all array elements are equal
 Write a function that takes an array as argument. It should return true if all elements in the array are equal. It should return false otherwise
+
+#### Sort an array of numbers in descending order
+Write a function that takes an array of numbers as argument. It should return an array with the numbers sorted in descending order
