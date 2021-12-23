@@ -5,7 +5,7 @@
 - [x] Sort an array of strings alphabetically
 - [x] Return the average of an array of numbers
 - [x] Return the longest string from an array of strings
-- [ ] Merge an arbitrary number of arrays
+- [x] Merge an arbitrary number of arrays
 - [ ] Remove a specific array element
 - [ ] Merge two arrays with duplicate values
 - [ ] Sum up all array elements with values greater than
@@ -30,3 +30,6 @@ Write a function that takes an array of numbers as argument. It should return th
 
 #### Return the longest string from an array of strings
 Write a function that takes an array of strings as argument. It should return the longest string
+
+#### Merge an arbitrary number of arrays
+Write a function that takes arguments an arbitrary number of arrays. It should return an array containing the values of all arrays

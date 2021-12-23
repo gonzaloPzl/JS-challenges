@@ -1,23 +1,13 @@
-// Write a function that takes two strings, say a and b, as arguments
-// If a contains b, append b to the beginning of a
-// If not, append it to the end
-// Return the concatenation
+// Write a function that takes arguments an arbitrary number of arrays
+// It should return an array containing the values of all arrays
 
-// ternary operator form
-const concatStrings = function (string_a, string_b) {
-  return string_a.includes(string_b) ? string_b + string_a :string_a + string_b 
+
+function mergeArrays () { // para utilizar arguments no podemos usar arrow function, así que vamos a tener que utilizar la forma tradicional de funciones
+  array = []
+  for (let i = 0; i < arguments.length; i++) { // arguments tiene información sobre los argumentos que le pasamos, por lo que podemos iterar por ellos
+    array.push(arguments[i]) // agregamos cada parametro al array mediante un push
+  }
+  return array
 }
 
-console.log(concatStrings('lips','s'))
-
-
-
-
-// Normal form
-// const concatStrings = function (string_a, string_b) {
-//   if (string_a.includes(string_b)) {
-//     return string_b + string_a
-//   } else {
-//     return string_a + string_b
-//   }
-// }
+console.log(mergeArrays([21, 15, 33],[233, 15],[15],[330, 25, 22]))
