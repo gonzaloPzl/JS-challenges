@@ -1,27 +1,17 @@
-// This challenge is a little bit more complex
-// Write a function that takes a number as argument
-// If the number is prime, return the number
-// If not, return the next higher prime number
+// Write a function that takes an array and a number, say num, as arguments
+// Sum up all array elements with a value greater than num
+// Return the sum
 
-const isPrime = (number) => { // Función para saber si es primo
-  div_count = 0;
-  for (let i = 1; i <= number; i++) { // Itera por cada numero hasta tener el valor igual al parametro
-    if (number % i == 0) { // Si se cumple la condicion de dar resto 0 se suma 1 al div_count
-      div_count += 1;
+const sumArray = (array, num) => {
+  sum = 0 // inicializamos la variable suma
+  for (let number of array) { // iteramos cada numero en el array
+    if (number > num) { // si el numero es mayor al num lo sumamos
+      sum = sum + number
     }
   }
-  return div_count <= 2 ? true : false; // Si el div count es igual o menor que 2 es primo
-};
+  return sum
+}
 
-const primeNumber = (number) => {
-  if (isPrime(number)) { // Se consulta con la anterior función si es primo
-    return number;
-  } else { // Si no lo es se entra en el while
-    while (!isPrime(number)) { // Mientras no sea primo se va sumando 1 hasta que lo sea
-      number += 1;
-    }
-    return number;
-  }
-};
-
-console.log(primeNumber(24));
+console.log(sumArray([1, 2, 3, 4, 5, 6, 7], 2))
+console.log(sumArray([-10, -11, -3, 1, -4], -3))
+console.log(sumArray([78, 99, 100, 101, 401], 99))

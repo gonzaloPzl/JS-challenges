@@ -8,7 +8,7 @@
 - [x] Merge an arbitrary number of arrays
 - [x] Remove a specific array element
 - [x] Merge two arrays with duplicate values
-- [ ] Sum up all array elements with values greater than
+- [x] Sum up all array elements with values greater than
 - [ ] Create a range of numbers
 - [ ] Return last n array elements
 - [ ] Group array of strings by first letter
@@ -39,3 +39,6 @@ Write a function that takes an array and a value as argument. The function shoul
 
 #### Merge two arrays with duplicate values
 Write a function that takes two arrays as arguments. Merge both arrays and remove duplicate values. Sort the merge result in ascending order. Return the resulting array
+
+#### Sum up all array elements with values greater than
+Write a function that takes an array and a number, say num, as arguments. Sum up all array elements with a value greater than num. Return the sum
