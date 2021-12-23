@@ -10,7 +10,7 @@
 - [x] Merge two arrays with duplicate values
 - [x] Sum up all array elements with values greater than
 - [x] Create a range of numbers
-- [ ] Return last n array elements
+- [x] Return last n array elements
 - [ ] Group array of strings by first letter
 - [ ] Define an array with conditional elements
 
@@ -45,3 +45,6 @@ Write a function that takes an array and a number, say num, as arguments. Sum up
 
 #### Create a range of numbers
 Write a function that takes two numbers, say min and max, as arguments. Return an array of numbers in the range min to max
+
+#### Return last n array elements
+Write a function that takes an array and a number (n) as arguments. It should return the last n array elements. If the array has less than n elements, return all
