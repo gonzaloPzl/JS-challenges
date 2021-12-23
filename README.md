@@ -42,3 +42,6 @@ Write a function that takes two arrays as arguments. Merge both arrays and remov
 
 #### Sum up all array elements with values greater than
 Write a function that takes an array and a number, say num, as arguments. Sum up all array elements with a value greater than num. Return the sum
+
+#### Create a range of numbers
+Write a function that takes two numbers, say min and max, as arguments. Return an array of numbers in the range min to max

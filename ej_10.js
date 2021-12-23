@@ -1,19 +1,15 @@
-// Write a function that takes two numbers, say x and y, as arguments
-// Check if x is divisible by y
-// If yes, return x
-// If not, return the next higher natural number that is divisible by y
+// Write a function that takes two numbers, say min and max, as arguments
+// Return an array of numbers in the range min to max
 
-const xAndY = (x,y) => {
-  if (x % y == 0) { // evaluo si es divisible
-    return x
-  } else { // Si no lo es entra en el while
-    while (!(x % y == 0)) { // Mientras no sea divisible se ejecuta 
-      x += 1 // Se suma 1 a la x
-    }
-    return x
+const rangeArray = (min, max) => {
+  const array = []
+  for (let i = min; i < max + 1; i++) {
+    array.push(i)
   }
-}
+  return array
+} 
 
-console.log(xAndY(29,7))
-console.log(xAndY(100,10))
-console.log(xAndY(21,5))
+console.log(rangeArray(2,10))
+console.log(rangeArray(1,3))
+console.log(rangeArray(-5,5))
+console.log(rangeArray(2,7))
