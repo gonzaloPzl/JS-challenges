@@ -1,14 +1,13 @@
-// Write a function that takes a number as argument
-// If the number is a whole number (has no decimal place), return true
-// Otherwise, return false
+// Write a function that takes an array of numbers as argument
+// It should return the average of the numbers
 
-const wholeNumber = number => Number.isInteger(number)
+const averageNumbers = arrayNumbers => {
+  sum = 0
+  for (i in arrayNumbers) { // Hacemos un for para iterar los numeros
+    sum += arrayNumbers[i] // Sumamos todos los numeros dentro del array
+  } 
+  average = (sum / arrayNumbers.length).toFixed(2) // dividimos esa suma por la cantidad de elementos, el toFixed limita los decimales
+  return average
+}
 
-console.log(wholeNumber(2.5))
-
-// other way
-// Se sigue el concepto que cualquier numero entero dividido por 1 nos va a dar de resto 0
-// En cambio los numeros decimales no
-const wholeNumber2 = number => number % 1 == 0 ? true : false
-
-console.log(wholeNumber2(10))
+console.log(averageNumbers([3,33,100]))
