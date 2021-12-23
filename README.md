@@ -13,3 +13,8 @@
 - [ ] Return last n array elements
 - [ ] Group array of strings by first letter
 - [ ] Define an array with conditional elements
+
+***
+
+#### Check if all array elements are equal
+Write a function that takes an array as argument. It should return true if all elements in the array are equal. It should return false otherwise
