@@ -4,7 +4,7 @@
 - [x] Sort an array of numbers in descending order
 - [x] Sort an array of strings alphabetically
 - [x] Return the average of an array of numbers
-- [ ] Return the longest string from an array of strings
+- [x] Return the longest string from an array of strings
 - [ ] Merge an arbitrary number of arrays
 - [ ] Remove a specific array element
 - [ ] Merge two arrays with duplicate values
@@ -27,3 +27,6 @@ Write a function that takes an array of strings as argument. It should return th
 
 #### Return the average of an array of numbers
 Write a function that takes an array of numbers as argument. It should return the average of the numbers
+
+#### Return the longest string from an array of strings
+Write a function that takes an array of strings as argument. It should return the longest string

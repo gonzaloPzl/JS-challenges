@@ -1,18 +1,14 @@
-// Write a function that takes two numbers, say a and b, as arguments
-// If a is smaller than b, divide a by b
-// Otherwise, multiply both numbers
-// Return the resulting value
+// Write a function that takes an array of strings as argument
+// It should return the longest string
 
-const maths = (num_a, num_b) => {
-  return num_a < num_b ? num_a / num_b : num_a * num_b
+const longestString = arrayStrings => {
+  let longest = "" // Inicializo la variable con un string vacio
+  for (word of arrayStrings) { // hacemos un for of para iterar por cada objeto 
+    if (word.length > longest.length) { // Si la palabra es mas larga que la palabra mas larga anteriormente
+      longest = word // se asigna esa palabra para que sea la nueva palabra mas larga
+    }
+  }
+  return longest
 }
 
-console.log(maths(50, 100))
-
-// const maths = function (num_a, num_b) {
-//   if (num_a < num_b) {
-//     return num_a / num_b
-//   } else {
-//     return num_a * num_b
-//   }
-// }
+console.log(longestString(["123","1234567","13456","12345"]))
