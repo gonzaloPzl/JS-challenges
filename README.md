@@ -9,7 +9,7 @@
 - [x] Remove a specific array element
 - [x] Merge two arrays with duplicate values
 - [x] Sum up all array elements with values greater than
-- [ ] Create a range of numbers
+- [x] Create a range of numbers
 - [ ] Return last n array elements
 - [ ] Group array of strings by first letter
 - [ ] Define an array with conditional elements
