@@ -7,7 +7,7 @@
 - [x] Return the longest string from an array of strings
 - [x] Merge an arbitrary number of arrays
 - [x] Remove a specific array element
-- [ ] Merge two arrays with duplicate values
+- [x] Merge two arrays with duplicate values
 - [ ] Sum up all array elements with values greater than
 - [ ] Create a range of numbers
 - [ ] Return last n array elements
@@ -36,3 +36,6 @@ Write a function that takes arguments an arbitrary number of arrays. It should r
 
 #### Remove a specific array element
 Write a function that takes an array and a value as argument. The function should clean the array from all occurrences of the given value and return the the cleaned version
+
+#### Merge two arrays with duplicate values
+Write a function that takes two arrays as arguments. Merge both arrays and remove duplicate values. Sort the merge result in ascending order. Return the resulting array
