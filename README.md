@@ -12,7 +12,7 @@
 - [x] Create a range of numbers
 - [x] Return last n array elements
 - [x] Group array of strings by first letter
-- [ ] Define an array with conditional elements
+- [x] Define an array with conditional elements
 
 ***
 
@@ -51,3 +51,6 @@ Write a function that takes an array and a number (n) as arguments. It should re
 
 #### Group array of strings by first letter
 Write a function that takes an array of strings as argument. Group those strings by their first letter. Return an object that contains properties with keys representing first letters. The values should be arrays of strings containing only the corresponding strings. For example, the array ['Alf', 'Alice', 'Ben'] should be transformed to. { a: ['Alf', 'Alice'], b: ['Ben']}
+
+#### Define an array with conditional elements
+Write a function that takes an array with arbitrary elements and a number as arguments. Return a new array, the first element should be either the given number itself. or zero if the number is smaller than 6. The other elements should be the elements of the original array. Try not to mutate the original array
