@@ -11,7 +11,7 @@
 - [x] Sum up all array elements with values greater than
 - [x] Create a range of numbers
 - [x] Return last n array elements
-- [ ] Group array of strings by first letter
+- [x] Group array of strings by first letter
 - [ ] Define an array with conditional elements
 
 ***
@@ -48,3 +48,6 @@ Write a function that takes two numbers, say min and max, as arguments. Return a
 
 #### Return last n array elements
 Write a function that takes an array and a number (n) as arguments. It should return the last n array elements. If the array has less than n elements, return all
+
+#### Group array of strings by first letter
+Write a function that takes an array of strings as argument. Group those strings by their first letter. Return an object that contains properties with keys representing first letters. The values should be arrays of strings containing only the corresponding strings. For example, the array ['Alf', 'Alice', 'Ben'] should be transformed to. { a: ['Alf', 'Alice'], b: ['Ben']}
