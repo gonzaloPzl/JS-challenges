@@ -1,7 +1,7 @@
 # Javascript Arrays
 
 - [x] Accessing object properties one
-- [ ] Accessing object properties two
+- [x] Accessing object properties two
 - [ ] Accessing object properties three
 - [ ] Remove a property from an object
 - [ ] Merge two objects with matching keys
