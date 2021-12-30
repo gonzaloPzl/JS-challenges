@@ -1,6 +1,6 @@
 # Javascript Arrays
 
-- [ ] Accessing object properties one
+- [x] Accessing object properties one
 - [ ] Accessing object properties two
 - [ ] Accessing object properties three
 - [ ] Remove a property from an object
