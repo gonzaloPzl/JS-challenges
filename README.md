@@ -2,7 +2,7 @@
 
 - [x] Accessing object properties one
 - [x] Accessing object properties two
-- [ ] Accessing object properties three
+- [x] Accessing object properties three
 - [ ] Remove a property from an object
 - [ ] Merge two objects with matching keys
 - [ ] Swap object keys and values
