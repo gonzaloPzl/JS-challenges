@@ -1,9 +1,2 @@
-// Write a function that takes an array of strings as argument
-// It should return the array with its values sorted alphabetically
-
-const sortedStrings = arrayString => {
-  arrayString.sort()
-  return arrayString
-}
-
-console.log(sortedStrings(["gonzalo","abel","estefania","belen"]))
+// Write a function that takes a string and an object with two properties as arguments
+// It should return the value of the property with key equal to the value of the string

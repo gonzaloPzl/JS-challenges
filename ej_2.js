@@ -1,11 +1,3 @@
-// Write a function that takes an array of numbers as argument
-// It should return an array with the numbers sorted in descending order
-
-const numbersSorted = arrayNumbers => {
-  arrayNumbers.sort(function(a, b) {
-    return b - a;
-  })
-  return arrayNumbers
-}
-
-console.log(numbersSorted([15,10,5,30,55]))
+// Write a function that takes an object with two properties as argument
+// It should return the value of the property with key 'prop-2'
+// Tipp: you might want to use the square brackets property accessor
