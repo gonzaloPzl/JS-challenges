@@ -12,5 +12,5 @@
 // If ternario
 const getProp = (obj,prop) => obj.hasOwnProperty(prop) ? obj[prop] : "La propiedad no existe en el objeto"
 
-console.log(getProp({  continent: 'Asia',  country: 'Japan'}, 'continent'))
-console.log(getProp({  country: 'Sweden',  continent: 'Europe'}, 'country'))
+console.log(getProp({  continent: 'Asia',  country: 'Japan'}, 'continent')) // Expected: 'Asia'
+console.log(getProp({  country: 'Sweden',  continent: 'Europe'}, 'country')) // Expected: 'Sweden'
