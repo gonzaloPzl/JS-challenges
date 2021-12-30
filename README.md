@@ -1,56 +1,43 @@
 # Javascript Arrays
 
-- [x] Check if all array elements are equal
-- [x] Sort an array of numbers in descending order
-- [x] Sort an array of strings alphabetically
-- [x] Return the average of an array of numbers
-- [x] Return the longest string from an array of strings
-- [x] Merge an arbitrary number of arrays
-- [x] Remove a specific array element
-- [x] Merge two arrays with duplicate values
-- [x] Sum up all array elements with values greater than
-- [x] Create a range of numbers
-- [x] Return last n array elements
-- [x] Group array of strings by first letter
-- [x] Define an array with conditional elements
+- [ ] Accessing object properties one
+- [ ] Accessing object properties two
+- [ ] Accessing object properties three
+- [ ] Remove a property from an object
+- [ ] Merge two objects with matching keys
+- [ ] Swap object keys and values
+- [ ] Replace empty strings in object with null values
+- [ ] Extracting information from objects
+- [ ] Add property to each object in array
 
 ***
 
-#### Check if all array elements are equal
-Write a function that takes an array as argument. It should return true if all elements in the array are equal. It should return false otherwise
+#### Accessing object properties one
+Write a function that takes an object with two properties as argument. It should return the value of the property with key country
 
-#### Sort an array of numbers in descending order
-Write a function that takes an array of numbers as argument. It should return an array with the numbers sorted in descending order
+#### Accessing object properties two
+Write a function that takes an object with two properties as argument. It should return the value of the property with key 'prop-2'. Tipp: you might want to use the square brackets property accessor
 
-#### Sort an array of strings alphabetically
-Write a function that takes an array of strings as argument. It should return the array with its values sorted alphabetically
+#### Accessing object properties three
+Write a function that takes a string and an object with two properties as arguments. It should return the value of the property with key equal to the value of the string
 
-#### Return the average of an array of numbers
-Write a function that takes an array of numbers as argument. It should return the average of the numbers
+#### Remove a property from an object
+Write a function that takes an object as argument. It should return an object with all original object properties but the property with key 'country'
 
-#### Return the longest string from an array of strings
-Write a function that takes an array of strings as argument. It should return the longest string
+#### Merge two objects with matching keys
+Write a function that takes two objects as arguments. Unfortunately, the property 'country' in the second object has the wrong key. It should be named 'city' instead. Merge both objects and correct the wrong property name. Return the resulting object. It should have the properties 'planet', 'continent', 'country', 'state', and 'city'
 
 #### Merge an arbitrary number of arrays
 Write a function that takes arguments an arbitrary number of arrays. It should return an array containing the values of all arrays
 
-#### Remove a specific array element
-Write a function that takes an array and a value as argument. The function should clean the array from all occurrences of the given value and return the the cleaned version
+#### Swap object keys and values
+Write a function that takes an object as argument. Somehow, the properties and keys of the object got mixed up. Swap the Javascript object's key with its values and return the resulting object
 
-#### Merge two arrays with duplicate values
-Write a function that takes two arrays as arguments. Merge both arrays and remove duplicate values. Sort the merge result in ascending order. Return the resulting array
+#### Replace empty strings in object with null values
+Write a function that takes an object as argument. Some of the property values contain empty strings. Replace empty strings and strings that contain only whitespace with null values. Return the resulting object
 
-#### Sum up all array elements with values greater than
-Write a function that takes an array and a number, say num, as arguments. Sum up all array elements with a value greater than num. Return the sum
+#### Extracting information from objects
+Write a function that takes an object as argument containing properties with personal information. Extract firstName, lastName, size, and weight if available. If size or weight is given transform the value to a string. Attach the unit cm to the size. Attach the unit kg to the weight. Return a new object with all available properties that we are interested in
 
-#### Create a range of numbers
-Write a function that takes two numbers, say min and max, as arguments. Return an array of numbers in the range min to max
-
-#### Return last n array elements
-Write a function that takes an array and a number (n) as arguments. It should return the last n array elements. If the array has less than n elements, return all
-
-#### Group array of strings by first letter
-Write a function that takes an array of strings as argument. Group those strings by their first letter. Return an object that contains properties with keys representing first letters. The values should be arrays of strings containing only the corresponding strings. For example, the array ['Alf', 'Alice', 'Ben'] should be transformed to. { a: ['Alf', 'Alice'], b: ['Ben']}
-
-#### Define an array with conditional elements
-Write a function that takes an array with arbitrary elements and a number as arguments. Return a new array, the first element should be either the given number itself. or zero if the number is smaller than 6. The other elements should be the elements of the original array. Try not to mutate the original array
+#### Add property to each object in array
+Write a function that takes an array of objects and a string as arguments. Add a property with key 'continent' and value equal to the string to each of the objects. Return the new array of objects. Tipp: try not to mutate the original array
