@@ -8,7 +8,7 @@
 - [x] Swap object keys and values
 - [x] Replace empty strings in object with null values
 - [x] Extracting information from objects
-- [ ] Add property to each object in array
+- [x] Add property to each object in array
 
 ***
 
