@@ -5,7 +5,7 @@
 - [x] Accessing object properties three
 - [x] Remove a property from an object
 - [x] Merge two objects with matching keys
-- [ ] Swap object keys and values
+- [x] Swap object keys and values
 - [ ] Replace empty strings in object with null values
 - [ ] Extracting information from objects
 - [ ] Add property to each object in array
