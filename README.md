@@ -7,7 +7,7 @@
 - [x] Merge two objects with matching keys
 - [x] Swap object keys and values
 - [x] Replace empty strings in object with null values
-- [ ] Extracting information from objects
+- [x] Extracting information from objects
 - [ ] Add property to each object in array
 
 ***
