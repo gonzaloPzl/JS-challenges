@@ -1,43 +1,36 @@
 # Javascript Arrays
 
-- [x] Accessing object properties one
-- [x] Accessing object properties two
-- [x] Accessing object properties three
-- [x] Remove a property from an object
-- [x] Merge two objects with matching keys
-- [x] Swap object keys and values
-- [x] Replace empty strings in object with null values
-- [x] Extracting information from objects
-- [x] Add property to each object in array
+- [x] Check if two dates are equal
+- [ ] Return the number of days between two dates
+- [ ] Check if two dates fall on the exact same day
+- [ ] Check if two dates are within 1 hour from each other
+- [ ] Check if one date is earlier than another
+- [ ] Add n days to an existing date
+- [ ] Calculate difference between two dates in hours, minutes, and seconds
+- [ ] Return the next nearest quarter hour of a date
 
 ***
 
-#### Accessing object properties one
-Write a function that takes an object with two properties as argument. It should return the value of the property with key country
+#### Check if two dates are equal
+Sounds easy, but you need to know the trick. Write a function that takes two date instances as argument. It should return true if the dates are equal. It should return false otherwise
 
-#### Accessing object properties two
-Write a function that takes an object with two properties as argument. It should return the value of the property with key 'prop-2'. Tipp: you might want to use the square brackets property accessor
+#### Return the number of days between two dates
+Write a function that takes two date instances as argument. It should return the number of days that lies between those dates
 
-#### Accessing object properties three
-Write a function that takes a string and an object with two properties as arguments. It should return the value of the property with key equal to the value of the string
+#### Check if two dates fall on the exact same day
+Write a function that takes two date instances as argument. It should return true if they fall on the exact same day. It should return false otherwise
 
-#### Remove a property from an object
-Write a function that takes an object as argument. It should return an object with all original object properties but the property with key 'country'
+#### Check if two dates are within 1 hour from each other
+Write a function that takes two date instances as argument. It should return true if the difference between the dates is less than or equal to 1 hour. It should return false otherwise
 
-#### Merge two objects with matching keys
-Write a function that takes two objects as arguments. Unfortunately, the property 'country' in the second object has the wrong key. It should be named 'city' instead. Merge both objects and correct the wrong property name. Return the resulting object. It should have the properties 'planet', 'continent', 'country', 'state', and 'city'
+#### Check if one date is earlier than another
+Write a function that takes as argument an object with the properties a and b, each containing a date instance. It should return true if date a is earlier than date b. It should return false otherwise
 
-#### Merge an arbitrary number of arrays
-Write a function that takes arguments an arbitrary number of arrays. It should return an array containing the values of all arrays
+#### Add n days to an existing date
+Write a function that takes as argument an object with the properties date and daysToAdd, containing a Javascript date and a number. It should add daysToAdd days to the date and return the number of milliseconds since January 1, 1970, 00:00:00 UTC
 
-#### Swap object keys and values
-Write a function that takes an object as argument. Somehow, the properties and keys of the object got mixed up. Swap the Javascript object's key with its values and return the resulting object
+#### Calculate difference between two dates in hours, minutes, and seconds
+This is a more difficult challenge. Write a function that takes two date instances as arguments. It should return an object with the properties 'hrs', 'min', and 'sec'. The corresponding values should display the absolute difference between the two dates in hours, minutes, and seconds
 
-#### Replace empty strings in object with null values
-Write a function that takes an object as argument. Some of the property values contain empty strings. Replace empty strings and strings that contain only whitespace with null values. Return the resulting object
-
-#### Extracting information from objects
-Write a function that takes an object as argument containing properties with personal information. Extract firstName, lastName, size, and weight if available. If size or weight is given transform the value to a string. Attach the unit cm to the size. Attach the unit kg to the weight. Return a new object with all available properties that we are interested in
-
-#### Add property to each object in array
-Write a function that takes an array of objects and a string as arguments. Add a property with key 'continent' and value equal to the string to each of the objects. Return the new array of objects. Tipp: try not to mutate the original array
+#### Return the next nearest quarter hour of a date
+Write a function that takes a Date instance as argument. It should return the next nearest quarter hour in minutes. For example, if the given date has the time 10:01 the function should return 15
