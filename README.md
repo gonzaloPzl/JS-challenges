@@ -5,7 +5,7 @@
 - [x] Check if two dates fall on the exact same day
 - [x] Check if two dates are within 1 hour from each other
 - [x] Check if one date is earlier than another
-- [ ] Add n days to an existing date
+- [x] Add n days to an existing date
 - [ ] Calculate difference between two dates in hours, minutes, and seconds
 - [ ] Return the next nearest quarter hour of a date
 
