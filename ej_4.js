@@ -8,8 +8,8 @@
 //   return diff <= 60 ? true : false
 // }
 const isMinDiff = (date1,date2) => {
-  let diff = (date1.getTime() - date2.getTime()) / (1000*60)
-  diff = diff < 0 ? diff * -1 : diff 
+  let diff = (date1.getTime() - date2.getTime()) / (1000*60) // divido el resultado por las milesimas y segundos para obtener los minutos
+  diff = diff < 0 ? diff * -1 : diff // En el caso de ser un numero negativo se pasa a positivo
   return diff <= 60 ? true : false
 }
 
