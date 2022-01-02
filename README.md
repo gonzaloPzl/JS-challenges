@@ -2,7 +2,7 @@
 
 - [x] Check if two dates are equal
 - [x] Return the number of days between two dates
-- [ ] Check if two dates fall on the exact same day
+- [x] Check if two dates fall on the exact same day
 - [ ] Check if two dates are within 1 hour from each other
 - [ ] Check if one date is earlier than another
 - [ ] Add n days to an existing date
