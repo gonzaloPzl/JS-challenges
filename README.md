@@ -1,7 +1,7 @@
 # Javascript Sets
 
 - [x] Check if value is present in Set
-- [] Convert a Set to Array
+- [x] Convert a Set to Array
 - [] Get union of two sets
 - [] Creating Javascript Sets
 - [] Delete element from Set
