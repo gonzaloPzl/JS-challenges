@@ -1,4 +1,4 @@
-# Javascript Arrays
+# Javascript Dates
 
 - [x] Check if two dates are equal
 - [x] Return the number of days between two dates
