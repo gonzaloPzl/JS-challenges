@@ -1,12 +1,9 @@
-// Sounds easy, but you need to know the trick
-// Write a function that takes two date instances as argument
-// It should return true if the dates are equal
-// It should return false otherwise
+// Write a function that takes a Set and a value as arguments
+// Check if the value is present in the Set
 
-const isEqual = (date1,date2) => date1.getTime() === date2.getTime() ? true : false
-// getTime genera un numero unico a partir de multiplicar el año, dia, mes, segundos y milesimas. 
-// De esta forma podemos comparar si estos numeros generados son iguales
+const isInclude = (set1,item) => set1.has(item) ? true : false
 
-console.log(isEqual(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 08:45:00')))
-console.log(isEqual(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 08:00:00')))
-console.log(isEqual(new Date('2001/01/01 08:00:00'), new Date('2000/01/01 08:00:00')))
+console.log(isInclude(new Set([1, 2, 3]), 2)) // Expected: true
+console.log(isInclude(new Set([123]), 2)) // Expected: false
+console.log(isInclude(new Set(['1', '2', '3']), '2')) // Expected: true
+console.log(isInclude(new Set('123'), '2')) // Expected: true

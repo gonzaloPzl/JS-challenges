@@ -1,10 +1,5 @@
-// Write a function that takes two date instances as argument
-// It should return true if they fall on the exact same day
-// It should return false otherwise
+// Write a function that takes two Sets as arguments
+// Create the union of the two sets
+// Return the result
+// Tipp: try not to switch to Arrays, this would slow down your code
 
-const isEqualDay = (date1,date2) => date1.getDate() == date2.getDate() ? true : false
-
-console.log(isEqualDay(new Date('2000/01/01'), new Date('2000/01/01')))
-console.log(isEqualDay(new Date('2000/01/01'), new Date('2000/01/02')))
-console.log(isEqualDay(new Date('2001/01/01'), new Date('2000/01/01')))
-console.log(isEqualDay(new Date('2000/11/01'), new Date('2000/01/01')))

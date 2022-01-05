@@ -1,19 +1,3 @@
-// Write a function that takes two date instances as argument
-// It should return true if the difference between the dates is less than or equal to 1 hour
-// It should return false otherwise
-
-// const isMinDiff = (date1,date2) => {
-//   let diff = (date1.getTime() - date2.getTime()) / (1000*60) 
-//   diff = diff < 0 ? diff * -1 : diff 
-//   return diff <= 60 ? true : false
-// }
-const isMinDiff = (date1,date2) => {
-  let diff = (date1.getTime() - date2.getTime()) / (1000*60) // divido el resultado por las milesimas y segundos para obtener los minutos
-  diff = diff < 0 ? diff * -1 : diff // En el caso de ser un numero negativo se pasa a positivo
-  return diff <= 60 ? true : false
-}
-
-console.log(isMinDiff(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 08:45:00')))
-console.log(isMinDiff(new Date('2000/01/01 09:00:00'), new Date('2000/01/01 08:45:00')))
-console.log(isMinDiff(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 09:45:00')))
-console.log(isMinDiff(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 09:00:00')))
+// Write a function that takes three elements of any type as arguments
+// Create a Set from those elements
+// Return the result

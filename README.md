@@ -1,36 +1,33 @@
-# Javascript Arrays
+# Javascript Sets
 
-- [x] Check if two dates are equal
-- [x] Return the number of days between two dates
-- [x] Check if two dates fall on the exact same day
-- [x] Check if two dates are within 1 hour from each other
-- [x] Check if one date is earlier than another
-- [x] Add n days to an existing date
-- [x] Calculate difference between two dates in hours, minutes, and seconds
-- [ ] Return the next nearest quarter hour of a date
+- [x] Check if value is present in Set
+- [] Convert a Set to Array
+- [] Get union of two sets
+- [] Creating Javascript Sets
+- [] Delete element from Set
+- [] Add multiple elements to Set
+- [] Get Intersection of two Javascript Sets
 
 ***
 
-#### Check if two dates are equal
-Sounds easy, but you need to know the trick. Write a function that takes two date instances as argument. It should return true if the dates are equal. It should return false otherwise
+#### Check if value is present in Set
+Write a function that takes a Set and a value as arguments. Check if the value is present in the Set
 
-#### Return the number of days between two dates
-Write a function that takes two date instances as argument. It should return the number of days that lies between those dates
+#### Convert a Set to Array
+Write a function that takes a Set as argument. Convert the Set to an Array. Return the Array
 
-#### Check if two dates fall on the exact same day
-Write a function that takes two date instances as argument. It should return true if they fall on the exact same day. It should return false otherwise
+#### Get union of two sets
+Write a function that takes two Sets as arguments. Create the union of the two sets. Return the result.
+Tipp: try not to switch to Arrays, this would slow down your code
 
-#### Check if two dates are within 1 hour from each other
-Write a function that takes two date instances as argument. It should return true if the difference between the dates is less than or equal to 1 hour. It should return false otherwise
+#### Creating Javascript Sets
+Write a function that takes three elements of any type as arguments. Create a Set from those elements. Return the result
 
-#### Check if one date is earlier than another
-Write a function that takes as argument an object with the properties a and b, each containing a date instance. It should return true if date a is earlier than date b. It should return false otherwise
+#### Delete element from Set
+Write a function that takes a Set and a value as argument. If existing in the Set, remove the value from the Set. Return the result
 
-#### Add n days to an existing date
-Write a function that takes as argument an object with the properties date and daysToAdd, containing a Javascript date and a number. It should add daysToAdd days to the date and return the number of milliseconds since January 1, 1970, 00:00:00 UTC
+#### Add multiple elements to Set
+Write a function that takes a Set and an array as arguments. If not already existing, add each element in the array to the Set. Return the modified Set
 
-#### Calculate difference between two dates in hours, minutes, and seconds
-This is a more difficult challenge. Write a function that takes two date instances as arguments. It should return an object with the properties 'hrs', 'min', and 'sec'. The corresponding values should display the absolute difference between the two dates in hours, minutes, and seconds
-
-#### Return the next nearest quarter hour of a date
-Write a function that takes a Date instance as argument. It should return the next nearest quarter hour in minutes. For example, if the given date has the time 10:01 the function should return 15
+#### Get Intersection of two Javascript Sets
+Write a function that takes two sets, say setA and setB, as arguments. Get the intersection of the sets. In other words, return a set containing all elements that are both in setA as well as setB
