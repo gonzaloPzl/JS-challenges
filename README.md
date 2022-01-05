@@ -1,4 +1,4 @@
-# Javascript Arrays
+# Javascript Objects
 
 - [x] Accessing object properties one
 - [x] Accessing object properties two
