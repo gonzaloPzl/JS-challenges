@@ -2,7 +2,7 @@
 
 - [x] Check if value is present in Set
 - [x] Convert a Set to Array
-- [] Get union of two sets
+- [x] Get union of two sets
 - [] Creating Javascript Sets
 - [] Delete element from Set
 - [] Add multiple elements to Set
