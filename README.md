@@ -6,7 +6,7 @@
 - [x] Creating Javascript Sets
 - [x] Delete element from Set
 - [x] Add multiple elements to Set
-- [] Get Intersection of two Javascript Sets
+- [x] Get Intersection of two Javascript Sets
 
 ***
 
