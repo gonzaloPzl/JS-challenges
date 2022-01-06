@@ -5,7 +5,7 @@
 - [x] Get union of two sets
 - [x] Creating Javascript Sets
 - [x] Delete element from Set
-- [] Add multiple elements to Set
+- [x] Add multiple elements to Set
 - [] Get Intersection of two Javascript Sets
 
 ***
